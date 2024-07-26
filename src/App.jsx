@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Technology from "./components/Technology";
-
+import Experinece from "./components/Experinece";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <About />
         <Technology />
-
+        <Experinece/>
       </div>
     </div>
   );
