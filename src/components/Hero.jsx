@@ -2,6 +2,8 @@ import React from "react";
 import { HERO_CONTENT } from "../constants/index";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
+import { LuExternalLink } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -38,11 +40,30 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+
+            <motion.a 
+            variants={container(1)}
+            initial="hidden"
+            animate="visible"
+              href="https://drive.google.com/file/d/1W5yMFKXbe8PRieF2flYLgJlgkYgA3HUt/view?pli=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1"
+            >
+              View Resume
+              <LuExternalLink />
+            </motion.a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img initial={{ x: 100, opacity: 0 }} animate={{ x:0, opacity: 1 }} transition={{duration : 1, delay: 1.2}} src={profilePic} alt="Profile pic" />
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilePic}
+              alt="Profile pic"
+            />
           </div>
         </div>
       </div>
