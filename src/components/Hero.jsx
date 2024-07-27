@@ -43,7 +43,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-              href="https://drive.google.com/file/d/1W5yMFKXbe8PRieF2flYLgJlgkYgA3HUt/view?pli=1"
+              href="https://drive.google.com/file/d/1W5yMFKXbe8PRieF2flYLgJlgkYgA3HUt/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-1"
