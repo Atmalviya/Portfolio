@@ -1,4 +1,3 @@
-import React from "react";
 import { EXPERIENCES } from "../constants/index";
 import { motion } from "framer-motion";
 const Experinece = () => {

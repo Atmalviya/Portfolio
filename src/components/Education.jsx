@@ -1,4 +1,3 @@
-import React from "react";
 import { EDUCATION } from "../constants/index";
 import { motion } from "framer-motion";
 

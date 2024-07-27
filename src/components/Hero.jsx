@@ -1,9 +1,7 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants/index";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
 import { LuExternalLink } from "react-icons/lu";
-import { Link } from "react-router-dom";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },

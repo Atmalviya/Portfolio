@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS } from "../constants/index";
 import { motion } from "framer-motion";
 import { LuExternalLink } from "react-icons/lu";

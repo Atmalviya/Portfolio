@@ -1,11 +1,10 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial : {y: -10},
