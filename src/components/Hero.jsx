@@ -2,6 +2,7 @@ import { HERO_CONTENT } from "../constants/index";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
 import { LuExternalLink } from "react-icons/lu";
+import HeroBgAnimation from "./HeroBgAnnimation"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -55,13 +56,14 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img
+          <HeroBgAnimation />
+            {/* <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Profile pic"
-            />
+            /> */}
           </div>
         </div>
       </div>
