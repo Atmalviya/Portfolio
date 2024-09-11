@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/aiformBuilder.png";
 import project1 from "../assets/projects/chatDashboard.png";
 import project2 from "../assets/projects/notesAppDashboard.png";
 import project3 from "../assets/projects/AuthApp.jpg";
@@ -47,6 +48,15 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Ai Form Builder",
+    image: project0,
+    link:"https://github.com/Atmalviya/Ai-FormBuilder",
+    hostLink:"https://aiform-builder.atmalviya.cloud/",
+    description:
+      "AI Form Builder is an intelligent and dynamic platform designed to simplify the process of creating custom forms using AI-driven automation. This tool allows users to quickly generate complex forms tailored to their needs without any coding.",
+    technologies: ["Next.js", "Node.js", "Express", "PostgreSQL", "Drizzel"],
+  },
   {
     title: "Real Time Chat Application",
     image: project1,
