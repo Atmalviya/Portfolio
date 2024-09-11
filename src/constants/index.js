@@ -51,7 +51,7 @@ export const PROJECTS = [
   {
     title: "Ai Form Builder",
     image: project0,
-    link:"https://github.com/Atmalviya/Ai-FormBuilder",
+    link:"https://aiform-builder.atmalviya.cloud",
     hostLink:"https://aiform-builder.atmalviya.cloud/",
     description:
       "AI Form Builder is an intelligent and dynamic platform designed to simplify the process of creating custom forms using AI-driven automation. This tool allows users to quickly generate complex forms tailored to their needs without any coding.",
