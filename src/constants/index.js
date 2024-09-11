@@ -50,7 +50,7 @@ export const PROJECTS = [
   {
     title: "Real Time Chat Application",
     image: project1,
-    link:"https://github.com/Atmalviya/Chat-App",
+    link:"https://github.com/Atmalviya/chat-App2.0",
     hostLink:"https://notes-app-fe.up.railway.app/",
     description:
       "The real-time chat application built with Node.js employs WebSockets for instant messaging, ensuring low-latency communication. It features robust user authentication and authorization mechanisms for secure access.",
