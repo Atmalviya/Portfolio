@@ -2,6 +2,7 @@ import project0 from "../assets/projects/aiformBuilder.png";
 import project1 from "../assets/projects/chatDashboard.png";
 import project2 from "../assets/projects/notesAppDashboard.png";
 import project3 from "../assets/projects/AuthApp.jpg";
+import slideGenImage from '../assets/projects/slide-gen.png'
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -48,6 +49,22 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Slide-Gen",
+    image: slideGenImage, 
+    link: "https://github.com/Atmalviya/slidegen",
+    hostLink: "https://slide-gen.atmalviya.cloud/",
+    description:
+      "Slide-Gen is a groundbreaking tool that generates PowerPoint presentations directly from YouTube video URLs. It extracts subtitles from the video, processes them with AI to create concise and meaningful slides, and outputs a complete presentation, streamlining the content creation process.",
+    technologies: [
+      "Next.js",
+      "PostgreSQL",
+      "Gemini AI",
+      "TypeScript",
+      "UploadThing",
+      "Shadcn UI",
+    ],
+  },
   {
     title: "Ai Form Builder",
     image: project0,
