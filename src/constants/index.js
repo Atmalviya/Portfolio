@@ -10,8 +10,17 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "July 2023 - Present",
+    year: "December 2024 - Present",
     role: " Software Developer Engineer",
+    company: "Right Byte Technology",
+    description: `Designed and developed a CRM system to automate client interactions, schedule emails, and enhance engagement, improving client retention and operational efficiency.
+• Built an AI-powered interview platform, enabling recruiters to define job requirements and conduct AI-driven interviews with automated question-asking, speech-to-text conversion, and candidate.
+`,
+    technologies: ["React.js", "Next.js", "Javascript", "TypeScript", "Node.js", "mongoDB", "MySQL", "PostgreSQL"],
+  },
+  {
+    year: "July 2023 - November 2024",
+    role: "Assosiate Software Developer",
     company: "Open Sense Labs",
     description: `Spearheaded front-end development efforts within a collaborative team environment, and Implemented backend logic to optimize data processing, resulting in a notable 25% reduction in response times, enhancing overall system
 efficiency.
