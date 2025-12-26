@@ -44,7 +44,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-              href="https://drive.google.com/file/d/1ZX-Yxj8y7pwfZkVQRgNyOZUNy6GPbSS1/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1VicM7gx8Ngve0dmyU8VcRqJHA4mxoHPQ/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-1"
