@@ -3,40 +3,52 @@ import project1 from "../assets/projects/chatDashboard.png";
 import project2 from "../assets/projects/notesAppDashboard.png";
 import project3 from "../assets/projects/AuthApp.jpg";
 import slideGenImage from '../assets/projects/slide-gen.png'
+import arbitrageBotImage from '../assets/projects/arbitrage_image.png';
+import chimpxImage from '../assets/projects/chimpx.png';
+import journalingAppImage from '../assets/projects/aijournal.png';
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer specializing in building robust, scalable, and AI-powered web applications. With 3 years of hands-on experience, I excel in modern front-end development using React.js and TypeScript, and back-end engineering with Node.js and Express. I have deep expertise in PostgreSQL for data management, and I'm proficient in building AI-driven solutions using LangChain and LangGraph. My cloud infrastructure skills include AWS services like S3, EC2, and Lambda, and I'm well-versed in DevOps practices including CI/CD pipelines, Docker containerization, and Kubernetes orchestration. My goal is to leverage this comprehensive skill set to create innovative, production-ready solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient, scalable, and AI-powered web applications. With 3 years of professional experience, I have mastered a comprehensive technology stack including React.js and TypeScript for front-end development, Node.js and Express for robust back-end systems, and PostgreSQL for reliable data management. I specialize in building intelligent applications using AI frameworks like LangChain and LangGraph, and I'm proficient in deploying and managing cloud infrastructure on AWS using S3, EC2, and Lambda services. My expertise extends to modern DevOps practices, including CI/CD pipeline automation, Docker containerization, and Kubernetes orchestration for scalable deployments. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality, production-ready solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "December 2024 - Present",
-    role: " Software Developer Engineer",
+    year: "July 2025 - Present",
+    role: "Senior Software Developer",
+    company: "Cryption Digital Services LLP",
+    description: `Architected Web3 frontend applications for token launches (Levrex Bushido) with blockchain and smart contract integration.
+• Built AI-powered DEX trading agents with natural language commands, reducing trading execution time by 60%.
+• Engineered high-frequency arbitrage bots using Node.js, generating $1,000+ USDT in profitable trades.
+• Developed AI-powered journaling mobile app with React Native and ML, achieving 85% user retention.
+• Created MCP server with blockchain tools for token swaps via LLM clients, reducing transaction complexity by 70%.`,
+    technologies: ["React.js", "React Native", "Node.js", "TypeScript", "Web3", "Blockchain", "Smart Contracts", "AI", "LangChain", "LangGraph", "LLM", "MCP", "DeFi", "Machine Learning"],
+  },
+  {
+    year: "December 2024 - July 2025",
+    role: "Software Developer",
     company: "Right Byte Technology",
-    description: `Designed and developed a CRM system to automate client interactions, schedule emails, and enhance engagement, improving client retention and operational efficiency.
-• Built an AI-powered interview platform, enabling recruiters to define job requirements and conduct AI-driven interviews with automated question-asking, speech-to-text conversion, and candidate.
-`,
-    technologies: ["React.js", "Next.js", "Javascript", "TypeScript", "Node.js", "mongoDB", "MySQL", "PostgreSQL"],
+    description: `Engineered enterprise CRM system automating 80% of workflows, increasing client retention by 30%.
+• Developed AI-powered interview platform using Python and FastAPI with voice-to-text processing and candidate evaluation.
+• Deployed AWS infrastructure (EC2, S3, Lambda, RDS) achieving 99.9% uptime for 10,000+ concurrent users.`,
+    technologies: ["React.js", "TypeScript", "Node.js", "Express", "Python", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "AWS", "EC2", "S3", "Lambda", "RDS", "AI", "Machine Learning"],
   },
   {
-    year: "July 2023 - November 2024",
-    role: "Assosiate Software Developer",
+    year: "July 2023 - December 2024",
+    role: "Associate Software Developer",
     company: "Open Sense Labs",
-    description: `Spearheaded front-end development efforts within a collaborative team environment, and Implemented backend logic to optimize data processing, resulting in a notable 25% reduction in response times, enhancing overall system
-efficiency.
-• Leveraged Node.js skills to enhance backend functionalities and streamline data processing tasks, contributing to improved system performance.
-`,
-    technologies: ["Javascript", "React.js", "Next.js", "Node.js", "mongoDB"],
+    description: `Integrated LLMs (GPT-4, Claude) into production apps, improving user engagement by 35%.
+• Optimized backend and database queries, reducing API response times by 25%.
+• Built RESTful APIs with Node.js, Express.js, and TypeScript across 10+ microservices.
+• Implemented data pipelines improving processing speed by 30%.`,
+    technologies: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "RESTful APIs", "LLM", "GPT-4", "Claude"],
   },
   {
-    year: "Sep 2022 - Feb 2023",
-    role: "Frontend Developer",
-    company: "Learn Tech Pvt. Ltd.",
-    description: `Developed user-friendly and responsive designs as a Front-End Developer intern, ensuring seamless user experiences across various devices and
-screen sizes.
-• Implemented optimizations in projects aimed at reducing site loading time, resulting in improved website performance and enhanced user
-satisfaction.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "mySQL"],
+    year: "September 2022 - February 2023",
+    role: "Frontend Developer Intern",
+    company: "Learn Tech Plus",
+    description: `Revamped company website using React.js and Vue.js, increasing user engagement by 40%.
+• Delivered performance-optimized solutions reducing page load times.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js"],
   },
 ];
 
@@ -59,12 +71,39 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "Slide-Gen",
+    title: "AI-Powered DeFi Trading Agent - Chimpx",
+    image: chimpxImage,
+    link: "https://github.com/Atmalviya",
+    hostLink: "#",
+    description:
+      "Developed intelligent trading agents for decentralized exchanges enabling natural language interaction for position management and market analysis. Integrated real-time blockchain data feeds and implemented automated trading strategies based on user-defined parameters. Built secure wallet connection system supporting multiple Web3 wallets with transaction signing capabilities.",
+    technologies: ["React.js", "TypeScript", "Node.js", "Web3", "Blockchain", "LangChain", "LangGraph", "DeFi", "Smart Contracts"],
+  },
+  {
+    title: "Cryptocurrency Arbitrage Trading Bot",
+    image: arbitrageBotImage,
+    link: "https://github.com/Atmalviya",
+    hostLink: "#",
+    description:
+      "Engineered high-frequency trading bot executing cross-platform arbitrage between centralized exchanges and banking systems. Implemented real-time price monitoring, automated order execution, and risk management protocols. Achieved $1,000+ USDT in profitable trades through optimized trading algorithms and latency reduction.",
+    technologies: ["Node.js", "TypeScript", "Express", "PostgreSQL", "WebSockets", "REST APIs"],
+  },
+  {
+    title: "AI Journaling Mobile Application",
+    image: journalingAppImage,
+    link: "https://github.com/Atmalviya",
+    hostLink: "#",
+    description:
+      "Built a cross-platform mobile application featuring AI-powered life coaching and personalized insights. Integrated sentiment analysis and pattern recognition to provide actionable feedback on daily journal entries. Implemented secure user authentication, encrypted data storage, and cloud synchronization features.",
+    technologies: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "AI", "Machine Learning", "LangChain"],
+  },
+  {
+    title: "Slide Gen",
     image: slideGenImage, 
     link: "https://github.com/Atmalviya/slidegen",
     hostLink: "https://slide-gen.atmalviya.cloud/",
     description:
-      "Slide-Gen is a groundbreaking tool that generates PowerPoint presentations directly from YouTube video URLs. It extracts subtitles from the video, processes them with AI to create concise and meaningful slides, and outputs a complete presentation, streamlining the content creation process.",
+      "Created automated tool generating PowerPoint presentations from YouTube video URLs using AI-driven content extraction. Implemented subtitle extraction, NLP-based summarization, and formatted slide generation pipeline. Reduced presentation creation time by 75% through intelligent content structuring.",
     technologies: [
       "Next.js",
       "PostgreSQL",
@@ -72,6 +111,7 @@ export const PROJECTS = [
       "TypeScript",
       "UploadThing",
       "Shadcn UI",
+      "NLP",
     ],
   },
   {
@@ -80,8 +120,8 @@ export const PROJECTS = [
     link:"https://aiform-builder.atmalviya.cloud",
     hostLink:"https://aiform-builder.atmalviya.cloud/",
     description:
-      "AI Form Builder is an intelligent and dynamic platform designed to simplify the process of creating custom forms using AI-driven automation. This tool allows users to quickly generate complex forms tailored to their needs without any coding.",
-    technologies: ["Next.js", "Node.js", "Express", "PostgreSQL", "Drizzel"],
+      "Developed an intelligent platform for dynamic form generation using AI-driven automation and natural language processing. Enables users to create complex, customized forms through conversational interface without coding knowledge.",
+    technologies: ["Next.js", "Node.js", "Express", "PostgreSQL", "Drizzel", "AI", "LangChain"],
   },
   {
     title: "Real Time Chat Application",
@@ -89,8 +129,8 @@ export const PROJECTS = [
     link:"https://github.com/Atmalviya/chat-App2.0",
     hostLink:"https://notes-app-fe.up.railway.app/",
     description:
-      "The real-time chat application built with Node.js employs WebSockets for instant messaging, ensuring low-latency communication. It features robust user authentication and authorization mechanisms for secure access.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
+      "Built scalable real-time messaging platform with WebSocket technology ensuring low-latency communication. Implemented secure authentication, authorization, message encryption, and user presence detection. Designed responsive UI supporting group chats, file sharing, and message history synchronization.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets", "JWT", "Encryption"],
   },
   {
     title: "Notes Application",
